@@ -6,3 +6,12 @@ La app consulta la API pública JSONPlaceholder y muestra una lista de estudiant
 
 **Integrantes:** Diego Adair Nicolas Mendoza y Edgar Axel Sandoval Hernández
 **Docente:** Josué Israel Vasquez Martínez
+
+
+## Estructura del proyecto
+
+- `lib/models` – clase Estudiante y conversión desde JSON
+- `lib/services` – petición a la API
+- `lib/cubit` – estados y lógica (EstudiantesCubit)
+- `lib/screens` – pantalla que escucha al Cubit con BlocBuilder
+- `lib/main.dart` – punto de entrada con BlocProvider
