@@ -2,7 +2,8 @@ import 'package:equatable/equatable.dart';
 
 import '../models/estudiante.dart';
 
-// sealed: el compilador exige cubrir todos los estados en el switch.
+/// Estado base de la consulta. Es sealed para que el switch
+/// de la pantalla esté obligado a cubrir los cinco estados.
 sealed class EstudiantesState extends Equatable {
   const EstudiantesState();
 
