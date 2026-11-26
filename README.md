@@ -15,3 +15,11 @@ La app consulta la API pública JSONPlaceholder y muestra una lista de estudiant
 - `lib/cubit` – estados y lógica (EstudiantesCubit)
 - `lib/screens` – pantalla que escucha al Cubit con BlocBuilder
 - `lib/main.dart` – punto de entrada con BlocProvider
+
+
+## Cómo ejecutar
+
+    flutter pub get
+    flutter run -d chrome
+
+Presiona el botón flotante para cargar los estudiantes y el botón de reiniciar para regresar al estado inicial.
