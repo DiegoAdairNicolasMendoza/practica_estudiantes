@@ -6,6 +6,9 @@ import 'package:http/http.dart' as http; // Actividad 2: para ClientException
 import '../services/estudiante_service.dart';
 import 'estudiantes_state.dart';
 
+
+/// Controla la consulta de estudiantes: emite Carga, Exito,
+/// Vacio o Error según la respuesta del servicio.
 class EstudiantesCubit extends Cubit<EstudiantesState> {
   final EstudianteService _servicio;
 
