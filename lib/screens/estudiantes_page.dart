@@ -4,6 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../cubit/estudiantes_cubit.dart';
 import '../cubit/estudiantes_state.dart';
 
+/// Pantalla sin lógica: dibuja un widget distinto según el
+/// estado que recibe del Cubit mediante BlocBuilder
+
 class EstudiantesPage extends StatelessWidget {
   const EstudiantesPage({super.key});
 
