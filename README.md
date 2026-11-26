@@ -1,17 +1,8 @@
-# practica_estudiantes
+# Consulta de estudiantes con Cubit
 
-A new Flutter project.
+Práctica de Desarrollo Móvil (Unidad 4) del Instituto Tecnológico de Tlaxiaco.
 
-## Getting Started
+La app consulta la API pública JSONPlaceholder y muestra una lista de estudiantes. Usa Cubit (flutter_bloc) para manejar los cinco estados de la consulta: inicial, carga, éxito, vacío y error.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Integrantes:** Diego Adair Nicolas Mendoza y Edgar Axel Sandoval Hernández
+**Docente:** Josué Israel Vasquez Martínez
